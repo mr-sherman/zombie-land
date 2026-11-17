@@ -66,4 +66,6 @@ The author's speaker notes are kept in a private file, `slides/zombieland.full.m
 
 ## License
 
-See [LICENSE](LICENSE).
+The slides, illustrations, and build scripts are © 2026 Bradford Sherman and licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You may share and adapt them, including commercially, as long as you give appropriate credit.
+
+Quotations and cited works remain the property of their respective authors and are not covered by this license.

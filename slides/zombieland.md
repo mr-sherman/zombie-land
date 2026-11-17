@@ -2,7 +2,7 @@
 marp: true
 theme: uncover
 paginate: true
-footer: "© 2026 Bradford Sherman. All rights reserved."
+footer: "© 2026 Bradford Sherman. CC BY 4.0."
 backgroundColor: #0b0e0c
 color: #8aff8a
 style: |
