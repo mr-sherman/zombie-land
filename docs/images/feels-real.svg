@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 290" width="1100" height="290" font-family="'Courier New', monospace">
+  <rect width="1100" height="290" fill="#0b0e0c"/>
+
+  <!-- panel 1: AI band -->
+  <g>
+    <rect width="255" height="280" fill="#10140f" stroke="#2f4a2a" stroke-width="2"/>
+    <text x="127" y="26" fill="#4a5c44" font-size="13" text-anchor="middle" letter-spacing="2">NOW PLAYING</text>
+    <rect x="67" y="40" width="120" height="120" fill="#16210f" stroke="#7cff6b" stroke-width="2"/>
+    <polyline points="77,100 92,100 100,72 110,128 120,60 130,140 140,84 150,116 158,100 177,100" fill="none" stroke="#7cff6b" stroke-width="3" stroke-linejoin="round"/>
+    <text x="127" y="188" fill="#c8ffb8" font-size="18" font-weight="bold" text-anchor="middle">The Velvet Sundown</text>
+    <rect x="30" y="224" width="195" height="4" fill="#2f4a2a"/>
+    <rect x="30" y="224" width="70" height="4" fill="#7cff6b"/>
+    <text x="127" y="262" fill="#9be88f" font-size="15" text-anchor="middle">AI bands on streaming</text>
+  </g>
+
+  <!-- panel 2: identical reviews -->
+  <g transform="translate(281 0)">
+    <rect width="255" height="280" fill="#10140f" stroke="#2f4a2a" stroke-width="2"/>
+    <text x="127" y="26" fill="#4a5c44" font-size="13" text-anchor="middle" letter-spacing="2">REVIEWS</text>
+    <g font-size="13">
+      <text x="20" y="56" fill="#8aff8a" font-weight="bold">Sam_K</text>
+      <text x="20" y="76" fill="#7fae72" font-size="12">Great product! Would buy again.</text>
+      <text x="20" y="110" fill="#8aff8a" font-weight="bold">Jordan88</text>
+      <text x="20" y="130" fill="#7fae72" font-size="12">Great product! Would buy again.</text>
+      <text x="20" y="164" fill="#8aff8a" font-weight="bold">Alex_R</text>
+      <text x="20" y="184" fill="#7fae72" font-size="12">Great product! Would buy again.</text>
+    </g>
+    <g font-family="sans-serif" font-size="14" fill="#7cff6b" text-anchor="end">
+      <text x="235" y="56">★★★★★</text>
+      <text x="235" y="110">★★★★★</text>
+      <text x="235" y="164">★★★★★</text>
+    </g>
+    <text x="127" y="216" fill="#4a5c44" font-size="13" text-anchor="middle">+ 4,997 more just like it</text>
+    <text x="127" y="262" fill="#9be88f" font-size="15" text-anchor="middle">Same review, new "people"</text>
+  </g>
+
+  <!-- panel 3: fake ad -->
+  <g transform="translate(562 0)">
+    <rect width="255" height="280" fill="#10140f" stroke="#2f4a2a" stroke-width="2"/>
+    <rect x="0" y="0" width="255" height="34" fill="#3a1414" stroke="#ff6b6b" stroke-width="2"/>
+    <text x="127" y="23" fill="#ff6b6b" font-size="15" font-weight="bold" text-anchor="middle">RETIRING SALE! 80% OFF</text>
+    <text x="127" y="62" fill="#8aff8a" font-size="14" text-anchor="middle">Master craftsman retiring</text>
+    <text x="127" y="82" fill="#8aff8a" font-size="14" text-anchor="middle">after 40 years!</text>
+    <path d="M100 118 C100 92 154 92 154 118" fill="none" stroke="#c8a46b" stroke-width="5"/>
+    <rect x="82" y="112" width="90" height="66" rx="6" fill="#3b2a17" stroke="#c8a46b" stroke-width="3"/>
+    <line x1="92" y1="132" x2="162" y2="132" stroke="#c8a46b" stroke-width="2" stroke-dasharray="4 3"/>
+    <rect x="77" y="196" width="100" height="26" fill="#16210f" stroke="#7cff6b" stroke-width="2"/>
+    <text x="127" y="214" fill="#7cff6b" font-size="14" font-weight="bold" text-anchor="middle">SHOP NOW</text>
+    <text x="127" y="262" fill="#9be88f" font-size="15" text-anchor="middle">Hand-made? Drop-shipped.</text>
+  </g>
+
+  <!-- panel 4: stat -->
+  <g transform="translate(843 0)">
+    <rect width="255" height="280" fill="#10140f" stroke="#ff6b6b" stroke-width="2"/>
+    <text x="127" y="108" fill="#ff6b6b" font-size="84" font-weight="bold" text-anchor="middle">10%</text>
+    <g fill="#8aff8a" font-size="15" text-anchor="middle">
+      <text x="127" y="146">of Meta's projected</text>
+      <text x="127" y="167">2024 revenue came from</text>
+      <text x="127" y="188">scam &amp; fraud ads</text>
+    </g>
+    <text x="127" y="230" fill="#7cff6b" font-size="22" font-weight="bold" text-anchor="middle">≈ $16 BILLION</text>
+    <text x="127" y="262" fill="#4a5c44" font-size="13" text-anchor="middle">Source: CNBC, Nov 2025</text>
+  </g>
+</svg>

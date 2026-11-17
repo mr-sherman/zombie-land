@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" font-family="'Courier New', monospace">
+  <rect width="1100" height="300" fill="#0b0e0c"/>
+
+  <!-- dead: shrimp jesus on a monitor -->
+  <g>
+    <rect width="530" height="300" fill="#10140f" stroke="#4a5c44" stroke-width="2"/>
+    <!-- heartbeat, then flatline -->
+    <polyline points="30,44 44,44 54,30.0 64,56.0 76,18.0 88,52.0 96,44 130,44 130,44 144,44 154,37.7 164,49.4 176,32.3 188,47.6 196,44 230,44 230,44" fill="none" stroke="#7cff6b" stroke-opacity="0.22" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="30,44 44,44 54,30.0 64,56.0 76,18.0 88,52.0 96,44 130,44 130,44 144,44 154,37.7 164,49.4 176,32.3 188,47.6 196,44 230,44 230,44" fill="none" stroke="#7cff6b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="230" y1="44" x2="500" y2="44" stroke="#ff6b6b" stroke-width="4" stroke-linecap="round"/>
+
+    <g transform="translate(47.7 54) scale(0.82)">
+    <clipPath id="screen"><rect x="150" y="22" width="230" height="156"/></clipPath>
+    <rect x="150" y="22" width="230" height="156" fill="#0b0e0c"/>
+    <g clip-path="url(#screen)">
+      <g stroke="#7cff6b" stroke-opacity="0.28" stroke-width="3">
+        <line x1="265" y1="98" x2="425.0" y2="98.0"/>
+        <line x1="265" y1="98" x2="412.8" y2="159.2"/>
+        <line x1="265" y1="98" x2="378.1" y2="211.1"/>
+        <line x1="265" y1="98" x2="326.2" y2="245.8"/>
+        <line x1="265" y1="98" x2="265.0" y2="258.0"/>
+        <line x1="265" y1="98" x2="203.8" y2="245.8"/>
+        <line x1="265" y1="98" x2="151.9" y2="211.1"/>
+        <line x1="265" y1="98" x2="117.2" y2="159.2"/>
+        <line x1="265" y1="98" x2="105.0" y2="98.0"/>
+        <line x1="265" y1="98" x2="117.2" y2="36.8"/>
+        <line x1="265" y1="98" x2="151.9" y2="-15.1"/>
+        <line x1="265" y1="98" x2="203.8" y2="-49.8"/>
+        <line x1="265" y1="98" x2="265.0" y2="-62.0"/>
+        <line x1="265" y1="98" x2="326.2" y2="-49.8"/>
+        <line x1="265" y1="98" x2="378.1" y2="-15.1"/>
+        <line x1="265" y1="98" x2="412.8" y2="36.8"/>
+      </g>
+      <!-- shrimp -->
+      <g stroke-linecap="round" stroke-linejoin="round" transform="translate(0 -10)">
+        <g stroke="#ff9a9a" stroke-width="2.5" fill="none">
+          <line x1="240" y1="70" x2="214" y2="46"/>
+          <line x1="246" y1="66" x2="232" y2="38"/>
+          <line x1="256" y1="96" x2="234" y2="104"/>
+          <line x1="262" y1="104" x2="242" y2="118"/>
+        </g>
+        <path d="M252 82 C 305 78, 318 128, 276 140" fill="none" stroke="#ff9a9a" stroke-width="22"/>
+        <g stroke="#10140f" stroke-width="3" fill="none">
+          <line x1="286" y1="84" x2="300" y2="80"/>
+        <line x1="296" y1="98" x2="311" y2="96"/>
+        <line x1="298" y1="114" x2="313" y2="116"/>
+        <line x1="290" y1="128" x2="303" y2="134"/>
+        </g>
+        <circle cx="250" cy="76" r="15" fill="#ff9a9a" stroke="#ff9a9a" stroke-width="2"/>
+        <circle cx="245" cy="73" r="3" fill="#0b0e0c"/>
+        <g fill="#ff9a9a" stroke="#ff6b6b" stroke-width="2">
+          <ellipse cx="262" cy="148" rx="7" ry="13" transform="rotate(35 262 148)"/>
+          <ellipse cx="274" cy="152" rx="7" ry="13" transform="rotate(8 274 152)"/>
+          <ellipse cx="286" cy="148" rx="7" ry="13" transform="rotate(-20 286 148)"/>
+        </g>
+      </g>
+      <!-- halo -->
+      <ellipse cx="250" cy="40" rx="24" ry="7" fill="none" stroke="#c8ffb8" stroke-width="3.5"/>
+      <!-- engagement bar -->
+      <rect x="150" y="156" width="230" height="22" fill="#0b0e0c" fill-opacity="0.9"/>
+      <path d="M170 162 C 165 157, 158 162, 170 171 C 182 162, 175 157, 170 162 Z" fill="#ff6b6b"/>
+      <text x="192" y="172" fill="#c8ffb8" font-size="14" font-weight="bold">AMMEN!!</text>
+      <text x="368" y="172" fill="#8aff8a" font-size="13" text-anchor="end">12.4K</text>
+    </g>
+    <rect x="150" y="22" width="230" height="156" fill="none" stroke="#7fae72" stroke-width="3"/>
+    <line x1="265" y1="178" x2="265" y2="204" stroke="#7fae72" stroke-width="3"/>
+    <line x1="225" y1="204" x2="305" y2="204" stroke="#7fae72" stroke-width="3" stroke-linecap="round"/>
+
+    </g>
+
+    <text x="265" y="262" fill="#7fae72" font-size="22" text-anchor="middle">The dead internet</text>
+  </g>
+
+  <!-- alive: people -->
+  <g transform="translate(570 0)">
+    <rect width="530" height="300" fill="#10140f" stroke="#7cff6b" stroke-opacity="0.6" stroke-width="2"/>
+    <polyline points="40,60 40,60 58,60 70,32 84,86 98,14 112,76 124,60 170,60 170,60 188,60 200,32 214,86 228,14 242,76 254,60 300,60 300,60 318,60 330,32 344,86 358,14 372,76 384,60 430,60 430,60 490,60" fill="none" stroke="#7cff6b" stroke-opacity="0.22" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="40,60 40,60 58,60 70,32 84,86 98,14 112,76 124,60 170,60 170,60 188,60 200,32 214,86 228,14 242,76 254,60 300,60 300,60 318,60 330,32 344,86 358,14 372,76 384,60 430,60 430,60 490,60" fill="none" stroke="#7cff6b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <g fill="#16210f" stroke="#7cff6b" stroke-width="3">
+      <circle cx="170" cy="140" r="16"/>
+      <path d="M142 210 L142 192 A28 28 0 0 1 198 192 L198 210 Z" stroke-linejoin="round"/>
+      <circle cx="265" cy="140" r="16"/>
+      <path d="M237 210 L237 192 A28 28 0 0 1 293 192 L293 210 Z" stroke-linejoin="round"/>
+      <circle cx="360" cy="140" r="16"/>
+      <path d="M332 210 L332 192 A28 28 0 0 1 388 192 L388 210 Z" stroke-linejoin="round"/>
+    </g>
+
+    <!-- book -->
+    <g fill="#16210f" stroke="#9be88f" stroke-width="3" stroke-linejoin="round">
+      <path d="M60 178 L88 184 L88 214 L60 208 Z"/>
+      <path d="M116 178 L88 184 L88 214 L116 208 Z"/>
+    </g>
+
+    <!-- coffee -->
+    <g fill="none" stroke="#9be88f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M430 186 H466 V206 Q466 218 454 218 H442 Q430 218 430 206 Z" fill="#16210f"/>
+      <path d="M466 192 Q480 192 480 202 Q480 211 466 211"/>
+      <path d="M440 176 Q445 170 440 164 M452 176 Q457 170 452 164" stroke-opacity="0.7"/>
+    </g>
+
+    <text x="265" y="250" fill="#9be88f" font-size="22" text-anchor="middle">The living world</text>
+  </g>
+</svg>

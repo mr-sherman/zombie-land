@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" width="1100" height="400" font-family="'Courier New', monospace">
+  <rect width="1100" height="400" fill="#0b0e0c"/>
+
+  <!-- card 1: neural network, 1943 -->
+  <g>
+    <rect x="0" y="0" width="340" height="190" fill="#10140f" stroke="#2f4a2a" stroke-width="2"/>
+    <g stroke="#4a5c44" stroke-width="1.5">
+      <line x1="70" y1="50" x2="170" y2="40"/><line x1="70" y1="50" x2="170" y2="95"/><line x1="70" y1="50" x2="170" y2="150"/>
+      <line x1="70" y1="95" x2="170" y2="40"/><line x1="70" y1="95" x2="170" y2="95"/><line x1="70" y1="95" x2="170" y2="150"/>
+      <line x1="70" y1="140" x2="170" y2="40"/><line x1="70" y1="140" x2="170" y2="95"/><line x1="70" y1="140" x2="170" y2="150"/>
+      <line x1="170" y1="40" x2="270" y2="95"/><line x1="170" y1="95" x2="270" y2="95"/><line x1="170" y1="150" x2="270" y2="95"/>
+    </g>
+    <g fill="#0b0e0c" stroke="#7cff6b" stroke-width="2.5">
+      <circle cx="70" cy="50" r="12"/><circle cx="70" cy="95" r="12"/><circle cx="70" cy="140" r="12"/>
+      <circle cx="170" cy="40" r="12"/><circle cx="170" cy="95" r="12"/><circle cx="170" cy="150" r="12"/>
+      <circle cx="270" cy="95" r="12"/>
+    </g>
+    <text x="170" y="182" fill="#7fae72" font-size="15" text-anchor="middle">McCulloch &amp; Pitts neural net</text>
+  </g>
+
+  <!-- card 2: IRC bot, 1988 -->
+  <g transform="translate(380 0)">
+    <rect width="340" height="190" fill="#10140f" stroke="#2f4a2a" stroke-width="2"/>
+    <g font-size="15">
+      <text x="16" y="34" fill="#4a5c44">* ModBot has joined #chat</text>
+      <text x="16" y="62" fill="#8aff8a">&lt;brad&gt; hello?</text>
+      <text x="16" y="90" fill="#7cff6b">&lt;ModBot&gt; Welcome! Read the rules.</text>
+      <text x="16" y="118" fill="#8aff8a">&lt;troll&gt; buy my stuff!!!</text>
+      <text x="16" y="146" fill="#ff6b6b">* ModBot sets ban on troll</text>
+    </g>
+    <text x="170" y="182" fill="#7fae72" font-size="15" text-anchor="middle">IRC bots, moderating since 1988</text>
+  </g>
+
+  <!-- card 3: robots.txt, 1994 -->
+  <g transform="translate(760 0)">
+    <rect width="340" height="190" fill="#10140f" stroke="#2f4a2a" stroke-width="2"/>
+    <rect x="50" y="14" width="240" height="150" fill="#0b0e0c" stroke="#7cff6b" stroke-width="2"/>
+    <rect x="50" y="14" width="240" height="26" fill="#16210f" stroke="#7cff6b" stroke-width="2"/>
+    <text x="64" y="32" fill="#c8ffb8" font-size="15" font-weight="bold">robots.txt</text>
+    <g font-size="14">
+      <text x="64" y="62" fill="#8aff8a">User-agent: *</text>
+      <text x="64" y="82" fill="#ff6b6b">Disallow: /private/</text>
+      <text x="64" y="102" fill="#ff6b6b">Disallow: /tmp/</text>
+      <text x="64" y="128" fill="#8aff8a">User-agent: BadBot</text>
+      <text x="64" y="148" fill="#ff6b6b">Disallow: /</text>
+    </g>
+    <text x="170" y="182" fill="#7fae72" font-size="15" text-anchor="middle">robots.txt standard, 1994</text>
+  </g>
+
+  <!-- timeline -->
+  <line x1="60" y1="270" x2="1060" y2="270" stroke="#4a5c44" stroke-width="3"/>
+  <g fill="#0b0e0c" stroke="#7cff6b" stroke-width="3">
+    <circle cx="80" cy="270" r="9"/>
+    <circle cx="347" cy="270" r="9"/>
+    <circle cx="603" cy="270" r="9"/>
+    <circle cx="672" cy="270" r="9"/>
+    <circle cx="938" cy="270" r="9"/>
+  </g>
+  <circle cx="1043" cy="270" r="9" fill="#ff6b6b" stroke="#ff6b6b"/>
+  <g fill="#7cff6b" font-size="20" font-weight="bold" text-anchor="middle">
+    <text x="80" y="245">1943</text>
+    <text x="347" y="245">1966</text>
+    <text x="603" y="245">1988</text>
+    <text x="672" y="245">1994</text>
+    <text x="938" y="245">2017</text>
+  </g>
+  <text x="1043" y="245" fill="#ff6b6b" font-size="20" font-weight="bold" text-anchor="middle">2026</text>
+  <g fill="#8aff8a" font-size="16" text-anchor="middle">
+    <text x="80" y="305">Neural networks</text>
+    <text x="347" y="305">ELIZA</text>
+    <text x="620" y="305" text-anchor="end">IRC bots</text>
+    <text x="655" y="305" text-anchor="start">robots.txt</text>
+    <text x="938" y="305">"Attention Is</text>
+    <text x="938" y="323">All You Need"</text>
+    <text x="1043" y="305">Today</text>
+  </g>
+  <!-- callout brackets -->
+  <g stroke="#7cff6b" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="80" y1="338" x2="1043" y2="338"/>
+    <line x1="80" y1="338" x2="80" y2="322"/>
+    <line x1="1043" y1="338" x2="1043" y2="322"/>
+  </g>
+  <rect x="452" y="323" width="220" height="30" fill="#0b0e0c"/>
+  <text x="562" y="345" fill="#7cff6b" font-size="21" font-weight="bold" text-anchor="middle">80 years of AI</text>
+  <g stroke="#9be88f" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="603" y1="378" x2="1043" y2="378"/>
+    <line x1="603" y1="378" x2="603" y2="362"/>
+    <line x1="1043" y1="378" x2="1043" y2="362"/>
+  </g>
+  <rect x="623" y="363" width="400" height="30" fill="#0b0e0c"/>
+  <text x="823" y="385" fill="#9be88f" font-size="21" font-weight="bold" text-anchor="middle">Bots: as old as the internet</text>
+</svg>

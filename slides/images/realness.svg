@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="'Courier New', monospace">
+  <rect width="1000" height="560" fill="#0b0e0c"/>
+
+  <!-- axes -->
+  <line x1="110" y1="40" x2="110" y2="440" stroke="#4a5c44" stroke-width="2"/>
+  <line x1="110" y1="440" x2="950" y2="440" stroke="#4a5c44" stroke-width="2"/>
+
+  <!-- 2016 marker -->
+  <line x1="688.5" y1="40" x2="688.5" y2="440" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- x ticks -->
+  <g stroke="#4a5c44" stroke-width="2">
+    <line x1="110" y1="440" x2="110" y2="450"/>
+    <line x1="361.5" y1="440" x2="361.5" y2="450"/>
+    <line x1="613" y1="440" x2="613" y2="450"/>
+    <line x1="688.5" y1="440" x2="688.5" y2="450"/>
+    <line x1="839.4" y1="440" x2="839.4" y2="450"/>
+    <line x1="940" y1="440" x2="940" y2="450"/>
+  </g>
+  <g fill="#8aff8a" font-size="22" text-anchor="middle">
+    <text x="110" y="478">1993</text>
+    <text x="361.5" y="478">2003</text>
+    <text x="613" y="478">2013</text>
+    <text x="839.4" y="478">2022</text>
+    <text x="940" y="478">2026</text>
+  </g>
+  <text x="688.5" y="478" fill="#ff6b6b" font-size="22" font-weight="bold" text-anchor="middle">2016</text>
+
+  <!-- axis titles -->
+  <text x="525" y="528" fill="#9be88f" font-size="28" text-anchor="middle">Year</text>
+  <text transform="translate(38 240) rotate(-90)" fill="#9be88f" font-size="28" text-anchor="middle">Realness</text>
+  <text x="100" y="95" fill="#4a5c44" font-size="18" text-anchor="end">High</text>
+  <text x="100" y="430" fill="#4a5c44" font-size="18" text-anchor="end">Low</text>
+
+  <!-- glow + line -->
+  <polyline points="110,90 688.5,90 940,380" fill="none" stroke="#7cff6b" stroke-opacity="0.25" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="110,90 688.5,90 940,380" fill="none" stroke="#7cff6b" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="688.5" cy="90" r="8" fill="#ff6b6b"/>
+  <circle cx="940" cy="380" r="8" fill="#7cff6b"/>
+
+  <!-- ChatGPT marker -->
+  <line x1="839.4" y1="264" x2="839.4" y2="440" stroke="#7cff6b" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="839.4" cy="264" r="11" fill="#0b0e0c" stroke="#7cff6b" stroke-width="3"/>
+  <circle cx="839.4" cy="264" r="4" fill="#7cff6b"/>
+  <text x="862" y="248" fill="#7cff6b" font-size="24" font-weight="bold">GPT</text>
+  <text x="862" y="270" fill="#8aff8a" font-size="16">2022</text>
+</svg>

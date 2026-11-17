@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 310" width="1100" height="310" font-family="'Courier New', monospace">
+  <defs>
+    <linearGradient id="arc" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="0.5" stop-color="#7fae72"/>
+      <stop offset="1" stop-color="#7cff6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="310" fill="#0b0e0c"/>
+
+  <!-- fringe -> mainstream arrow -->
+  <text x="0" y="18" fill="#ff6b6b" font-size="17" font-weight="bold">FRINGE THEORY</text>
+  <text x="1100" y="18" fill="#7cff6b" font-size="17" font-weight="bold" text-anchor="end">MAINSTREAM CONCEPT</text>
+  <line x1="0" y1="34" x2="1078" y2="34" stroke="url(#arc)" stroke-width="4"/>
+  <polygon points="1100,34 1076,24 1076,44" fill="#7cff6b"/>
+
+  <!-- card 1: 2021 forum post -->
+  <g transform="translate(0 56)">
+    <rect width="245" height="244" fill="#10140f" stroke="#ff6b6b" stroke-opacity="0.7" stroke-width="2"/>
+    <rect width="245" height="32" fill="#1a1212" stroke="#ff6b6b" stroke-opacity="0.7" stroke-width="2"/>
+    <text x="15" y="22" fill="#ff9a9a" font-size="18" font-weight="bold">2021</text>
+    <text x="230" y="22" fill="#7fae72" font-size="12" text-anchor="end">anon forum</text>
+    <g fill="#8aff8a" font-size="16" font-weight="bold">
+      <text x="15" y="76">Dead Internet</text>
+      <text x="15" y="98">Theory: Most of</text>
+      <text x="15" y="120">the Internet is</text>
+      <text x="15" y="142">Fake</text>
+    </g>
+    <text x="15" y="172" fill="#7fae72" font-size="13">Posted by: Anonymous</text>
+    <rect x="15" y="190" width="190" height="30" fill="#2a1414" stroke="#ff6b6b" stroke-width="2"/>
+    <text x="110" y="210" fill="#ff6b6b" font-size="14" font-weight="bold" text-anchor="middle">CONSPIRACY THEORY</text>
+  </g>
+
+  <!-- card 2: 2023 essay -->
+  <g transform="translate(285 56)">
+    <rect width="245" height="244" fill="#10140f" stroke="#7fae72" stroke-opacity="0.6" stroke-width="2"/>
+    <rect width="245" height="32" fill="#121a10" stroke="#7fae72" stroke-opacity="0.6" stroke-width="2"/>
+    <text x="15" y="22" fill="#9be88f" font-size="18" font-weight="bold">2023</text>
+    <text x="230" y="22" fill="#7fae72" font-size="12" text-anchor="end">magazine</text>
+    <g fill="#c8ffb8" font-size="18" font-weight="bold">
+      <text x="15" y="80">The Dead</text>
+      <text x="15" y="104">Internet To Come</text>
+    </g>
+    <g fill="#8aff8a" font-size="14">
+      <text x="15" y="138">Robert Mariani</text>
+      <text x="15" y="158" fill="#7fae72">The New Atlantis</text>
+      <text x="15" y="178" fill="#7fae72">Summer 2023</text>
+    </g>
+    <rect x="15" y="190" width="190" height="30" fill="#16210f" stroke="#7fae72" stroke-width="2"/>
+    <text x="110" y="210" fill="#9be88f" font-size="14" font-weight="bold" text-anchor="middle">ESSAY</text>
+  </g>
+
+  <!-- card 3: 2025 journal paper -->
+  <g transform="translate(570 56)">
+    <rect width="245" height="244" fill="#10140f" stroke="#9be88f" stroke-opacity="0.8" stroke-width="2"/>
+    <rect width="245" height="32" fill="#14201233" stroke="#9be88f" stroke-opacity="0.8" stroke-width="2"/>
+    <text x="15" y="22" fill="#9be88f" font-size="18" font-weight="bold">2025</text>
+    <text x="230" y="22" fill="#7fae72" font-size="12" text-anchor="end">journal</text>
+    <g fill="#c8ffb8" font-size="14" font-weight="bold">
+      <text x="15" y="62">The Dead Internet</text>
+      <text x="15" y="80">Theory: A Survey on</text>
+      <text x="15" y="98">Artificial Interactions</text>
+      <text x="15" y="116">and the Future of</text>
+      <text x="15" y="134">Social Media</text>
+    </g>
+    <g fill="#7fae72" font-size="13">
+      <text x="15" y="162">Asian Journal of Research</text>
+      <text x="15" y="180">in Computer Science</text>
+    </g>
+    <rect x="15" y="190" width="190" height="30" fill="#16210f" stroke="#9be88f" stroke-width="2"/>
+    <text x="110" y="210" fill="#9be88f" font-size="14" font-weight="bold" text-anchor="middle">JOURNAL PAPER</text>
+  </g>
+
+  <!-- card 4: today, wikipedia -->
+  <g transform="translate(855 56)">
+    <rect width="245" height="244" fill="#10140f" stroke="#7cff6b" stroke-width="2.5"/>
+    <rect width="245" height="32" fill="#16210f" stroke="#7cff6b" stroke-width="2.5"/>
+    <text x="15" y="22" fill="#7cff6b" font-size="18" font-weight="bold">Today</text>
+    <text x="230" y="22" fill="#9be88f" font-size="12" text-anchor="end">Wikipedia</text>
+    <text x="15" y="70" fill="#c8ffb8" font-size="17" font-weight="bold">Dead Internet</text>
+    <text x="15" y="92" fill="#c8ffb8" font-size="17" font-weight="bold">theory</text>
+    <text x="15" y="128" fill="#ff6b6b" font-size="15">conspiracy theory</text>
+    <line x1="13" y1="123" x2="168" y2="123" stroke="#ff6b6b" stroke-width="3"/>
+    <text x="15" y="158" fill="#7cff6b" font-size="20" font-weight="bold">&#8594; concept</text>
+    <rect x="15" y="190" width="190" height="30" fill="#16210f" stroke="#7cff6b" stroke-width="2"/>
+    <text x="110" y="210" fill="#7cff6b" font-size="14" font-weight="bold" text-anchor="middle">MAINSTREAM</text>
+  </g>
+</svg>
